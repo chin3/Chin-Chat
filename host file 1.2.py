@@ -2,7 +2,7 @@ import socket
 import time
 class server_chat():
     def __init__(self):        
-        self.host = '130.71.242.119'
+        self.host = 'IP_HOST'
         self.port = 5000
         self.clients = []
     def main(self):
